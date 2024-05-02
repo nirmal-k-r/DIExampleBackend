@@ -4,7 +4,7 @@ const usersRoutes=require('./routes/users.js');
 const pagesRoutes=require('./routes/pages.js');
 
 
-const server=fastify({ logger: true });
+const server=fastify({ logger: false });
 // server.register(cors, { 
 //     // put your options here
 // });
