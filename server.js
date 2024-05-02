@@ -25,6 +25,6 @@ server.get('/', async (req,res) => {
 });
 
 port=3000;
-server.listen(port, () => {
+server.listen(port,'0.0.0.0', () => {
   server.log.info(`server listening on ${port}`);
 });
